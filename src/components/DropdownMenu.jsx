@@ -2,7 +2,6 @@ import React from "react";
 import {SubtleLink} from "../styles/Typography";
 import {DropdownMenuCard} from "../styles/Card";
 import {getAppVersion} from "../lib/appVersion";
-
 function DropdownMenu({forwardRef, user, _logOutRedirect}) {
   return (
     <DropdownMenuCard ref={forwardRef}>
